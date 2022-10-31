@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  padding: 50px;
+}
+.header {
+  color: #3863ac;
+}
+.counter {
+  padding: 30px;
+  color: white;
+  background: #5099d3;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  border-radius: 10px;
+}
+.increment {
+  margin-left: -1rem;
+}
+.increment,
+.decrement {
+  width: 80px;
+  height: 80px;
+  background: #3863ac;
+  border-radius: 15px;
+  font-size: 60px;
+  padding-bottom: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  gap: 5rem;
+  position: absolute;
+  bottom: 0.1rem;
+}
